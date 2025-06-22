@@ -1,4 +1,4 @@
-# 🧠 Portfolio Website Build Checklist – imsamaritan (GBeeT)
+# 🧠 Portfolio Website Build Checklist – Mpilo Ngema (GBeeT)
 
 > Tech stack: SolidJS + Vite + BulmaCSS  
 > Deployment: [Render.com](https://render.com)
@@ -21,18 +21,35 @@
 
 ## ✅ PHASE 0: Setup
 
-- [ ] Create SolidJS project using `npm create vite@latest`
-- [ ] Choose `solid` template
+- [ ] Create SolidJS project using `npm create vite@latest ./ -- --template solid`
 - [ ] Install dependencies: `npm i`
-- [ ] Install Bulma: `npm install bulma`
-- [ ] Import Bulma CSS in `main.tsx`
+- [ ] Install BulmaCSS: `npm install bulma`
+- [ ] Import Bulma in `main.tsx` or global style file
+- [ ] Install Solid Router: `npm install @solidjs/router`
+- [ ] Set up basic routing using `<Router>` and `<Route>` components
 - [ ] Setup Git and GitHub repository
 - [ ] Add `.gitignore` and basic `README.md`
 - [ ] Confirm local dev runs without errors
 
 ---
 
-## 🧠 SECTION 1: Hero / Landing Banner
+## 🧭 SECTION 1: Navigation Bar
+
+- [ ] Create a navigation bar component
+- [ ] Add nav links:
+  - Home
+  - About
+  - Projects
+  - miniORM
+  - Contact
+- [ ] Use Bulma's `navbar` component
+- [ ] Highlight active route
+- [ ] Add responsive mobile nav (hamburger menu)
+- [ ] Style navbar to match your brand
+
+---
+
+## 🧠 SECTION 2: Hero / Landing Banner
 
 - [ ] Create a full-width hero section
 - [ ] Add name: **Mpilo Ngema**
@@ -43,7 +60,7 @@
 
 ---
 
-## 👤 SECTION 2: About Me
+## 👤 SECTION 3: About Me
 
 - [ ] Add **About Me** section
 - [ ] Write personal intro (self-taught, 4+ years learning, platforms used)
@@ -54,7 +71,7 @@
 
 ---
 
-## 🛠️ SECTION 3: Skills
+## 🛠️ SECTION 4: Skills
 
 - [ ] Add section titled **Skills & Tools**
 - [ ] List skills by category:
@@ -67,7 +84,7 @@
 
 ---
 
-## 🚀 SECTION 4: Projects
+## 🚀 SECTION 5: Projects
 
 - [ ] Title the section **Featured Project**
 - [ ] Add project: `miniORM`
@@ -82,9 +99,9 @@
 
 ---
 
-## 📝 SECTION 5: Blog (Optional)
+## 📝 SECTION 6: Blog (Optional)
 
-- [ ] (Future) Create `/blog` route
+- [ ] (Future) Create `/blog` route using Solid Router
 - [ ] Load Markdown or static blog data
 - [ ] Preview articles on homepage
 - [ ] Write posts like:
@@ -94,7 +111,7 @@
 
 ---
 
-## 📬 SECTION 6: Contact
+## 📬 SECTION 7: Contact
 
 - [ ] Add section titled **Get In Touch**
 - [ ] Contact form: Name, Email, Message
