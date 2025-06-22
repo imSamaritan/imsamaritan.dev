@@ -1,4 +1,4 @@
-# 🧠 Portfolio Website Build Checklist – Mpilo Ngema (GBeeT)
+# 🧠 Portfolio Website Build Checklist – imsamaritan.dev
 
 > Tech stack: SolidJS + Vite + BulmaCSS  
 > Deployment: [Render.com](https://render.com)
